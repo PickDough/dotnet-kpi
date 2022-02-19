@@ -1,10 +1,9 @@
 using System.Collections;
 using System.Runtime.Serialization;
 
-namespace MMS.LinkedList.Abstract;
+namespace MMS.LinkedList;
 
 public interface IMLinkedList<T> :
-    ICollection<T>,
     IReadOnlyCollection<T>,
     ICollection,
     IDeserializationCallback,

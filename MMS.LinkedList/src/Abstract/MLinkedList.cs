@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Runtime.Serialization;
+using System.Text;
 using MMS.LinkedList.Internal;
 
-namespace MMS.LinkedList.Abstract;
+namespace MMS.LinkedList;
 
 public class MLinkedList<T> : IMLinkedList<T>
 {
@@ -49,11 +50,13 @@ public class MLinkedList<T> : IMLinkedList<T>
                 Next = _head,
                 Prev = _head.Prev
             };
+            _head.Prev.Next = first;
             _head.Prev = first;
             _head = first;
+            _count++;
         }
-
-        AfterInsert(item);
+        
+        ItemAdded?.Invoke(item);
     }
 
     public void AddLast(T item)
@@ -66,12 +69,15 @@ public class MLinkedList<T> : IMLinkedList<T>
         {
             var last = new MLinkedListNode<T>(item)
             {
-                Next = _head
+                Next = _head,
+                Prev = _head.Prev
             };
+            _head.Prev.Next = last;
             _head.Prev = last;
+            _count++;
         }
 
-        AfterInsert(item);
+        ItemAdded?.Invoke(item);
     }
 
     public void AddAfter(T after, T item)
@@ -82,8 +88,9 @@ public class MLinkedList<T> : IMLinkedList<T>
             throw new ArgumentException("After item not found", nameof(after));
 
         InsertAfterNode(item, node);
-        
-        AfterInsert(item);
+
+        _count++;
+        ItemAdded?.Invoke(item);
     }
 
     public T? GetFirst()
@@ -187,7 +194,7 @@ public class MLinkedList<T> : IMLinkedList<T>
         if (node is null)
             throw new ArgumentException("After item not found", nameof(after));
         
-        RemoveNode(node);
+        RemoveNode(node.Next);
     }
 
     public IEnumerator<T> GetEnumerator()
@@ -266,6 +273,7 @@ public class MLinkedList<T> : IMLinkedList<T>
             Prev = node,
             Next = node.Next
         };
+        node.Next.Prev = newNode;
         node.Next = newNode;
     }
 
@@ -312,10 +320,16 @@ public class MLinkedList<T> : IMLinkedList<T>
 
         return null!;
     }
-    
-    private void AfterInsert(T item)
+
+    public override string ToString()
     {
-        _count++;
-        ItemAdded?.Invoke(item);
+        var strBuilder = new StringBuilder();
+        foreach (var t in this)
+        {
+            strBuilder.Append($"{t}->");
+        }
+
+        strBuilder.Remove(strBuilder.Length - 2, 2);
+        return strBuilder.ToString();
     }
 }

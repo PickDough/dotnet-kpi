@@ -9,6 +9,7 @@ void AddExample()
 {
     Console.WriteLine("Add example");
     var ll = new MLinkedList<int>();
+    ll.ItemAdded += i => Console.WriteLine($"{i} was added");
     
     ll.AddFirst(1);
     Console.WriteLine(ll);
@@ -25,6 +26,8 @@ void AddExample()
 void RemoveExample() {
     Console.WriteLine("Remove example");
     var ll = new MLinkedList<int>();
+    ll.ItemRemoved += i => Console.WriteLine($"{i} was removed");
+    ll.Cleared += () => Console.WriteLine($"Collection is empty");
     
     ll.AddFirst(1);
     ll.AddLast(3);

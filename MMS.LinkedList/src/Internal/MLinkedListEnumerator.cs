@@ -11,10 +11,10 @@ public class MLinkedListEnumerator<T> :
 {
     private MLinkedListNode<T> _current;
     private readonly MLinkedList<T> _list;
-    private readonly MLinkedListNode<T> _head;
+    private readonly MLinkedListNode<T>? _head;
 
 
-    public MLinkedListEnumerator(MLinkedList<T> list, MLinkedListNode<T> head)
+    public MLinkedListEnumerator(MLinkedList<T> list, MLinkedListNode<T>? head)
     {
         _list = list;
         _head = head;
@@ -23,7 +23,7 @@ public class MLinkedListEnumerator<T> :
 
     public bool MoveNext()
     {
-        if (_current.Next is null)
+        if (_current.Next == _head)
             return false;
 
         _current = _current.Next;

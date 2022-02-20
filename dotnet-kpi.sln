@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMS.News.DAL", "MMS.News.DAL\MMS.News.DAL.csproj", "{8057B19A-D918-47E2-B7F7-EDBA65156895}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMS.News.BLL", "MMS.News.BLL\MMS.News.BLL.csproj", "{CC6922BC-47A4-47A7-AA6D-E1DD5657F8F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{8057B19A-D918-47E2-B7F7-EDBA65156895}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8057B19A-D918-47E2-B7F7-EDBA65156895}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8057B19A-D918-47E2-B7F7-EDBA65156895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6922BC-47A4-47A7-AA6D-E1DD5657F8F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6922BC-47A4-47A7-AA6D-E1DD5657F8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6922BC-47A4-47A7-AA6D-E1DD5657F8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6922BC-47A4-47A7-AA6D-E1DD5657F8F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

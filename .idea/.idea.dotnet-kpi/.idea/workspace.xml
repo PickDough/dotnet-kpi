@@ -4,33 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="837f2840-b851-4356-9349-2e81859b5989" name="Changes" comment="solution set up">
-      <change afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Internal/Repositories/AuthorsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Internal/Repositories/BaseRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Internal/Repositories/CategoriesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Internal/Repositories/NewsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Internal/Repositories/TagsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Internal/UOF/UnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Repositories/IAuthorsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Repositories/ICategoriesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Repositories/INewsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Repositories/ITagsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/UOF/IUnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/MMS.News.DAL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/MMS.News.DAL.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/obj/MMS.News.DAL.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/obj/MMS.News.DAL.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/src/Entities/AuthorEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Entities/AuthorEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/src/Entities/CategoryEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Entities/CategoryEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/src/Entities/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Entities/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/src/Entities/NewsEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Entities/NewsEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/src/Entities/TagEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Entities/TagEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/src/NewsContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Internal/NewsContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/src/Repositories/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Repositories/IRepository.cs" afterDir="false" />
+    <list default="true" id="837f2840-b851-4356-9349-2e81859b5989" name="Changes" comment="DAL finished: added repositories, db connection, entities and UOF">
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/AuthorMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/CategoryMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/NewsMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/TagMapper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/Author.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/AuthorLogin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/AuthorSignUp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/Category.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/News.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/Tag.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/IAuthorService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/ICategoryService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/INewsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/ITagService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnet-kpi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotnet-kpi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dotnet-kpi.sln" beforeDir="false" afterPath="$PROJECT_DIR$/dotnet-kpi.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645357257869</updated>
-      <workItem from="1645357274079" duration="4075000" />
+      <workItem from="1645357274079" duration="6640000" />
     </task>
     <task id="LOCAL-00001" summary="solution set up">
       <created>1645357304576</created>
@@ -89,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645357304576</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DAL finished: added repositories, db connection, entities and UOF">
+      <created>1645366462171</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645366462171</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="solution set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution set up" />
+    <MESSAGE value="DAL finished: added repositories, db connection, entities and UOF" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAL finished: added repositories, db connection, entities and UOF" />
   </component>
 </project>

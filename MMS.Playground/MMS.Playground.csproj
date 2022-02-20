@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MMS.LinkedList\MMS.LinkedList.csproj" />
+        <ProjectReference Include="..\MMS.LinkedList\MMS.LinkedList.csproj"/>
     </ItemGroup>
 
 </Project>

@@ -39,7 +39,7 @@
       "outputPath": "/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.Playground/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/m-muravynets/.nuget/NuGet/NuGet.Config"
+        "/Users/m-muravynets/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

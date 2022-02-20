@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{D3AC4AEC-621D-494D-8242-7E736F7F30EC}|Default">
+  <MonoDevelop.Ide.ItemProperties.MMS.Playground PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MMS.Playground/Program.cs">
+    <Files>
+      <File FileName="MMS.Playground/Program.cs" Line="11" Column="1" />
+      <File FileName="MMS.LinkedList.Test/LinkedListTest.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="dotnet-kpi" expanded="True" selected="True">
+            <Node name="MMS.Playground" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="dotnet-kpi" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>MMS.LinkedList.Test/MMS.LinkedList.Test.csproj</String>
+    <String>MMS.LinkedList/MMS.LinkedList.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

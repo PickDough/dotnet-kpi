@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2vadGon6YnJwomhNK1qaMMn1lXZz4PgrRLlNhbuy7V1EIx4Z21eB4aBtsr4glPo5mx8kNk3qeVpEWXWro93Leg==",
+  "dgSpecHash": "Ru+V9KSlrZz3aGAvsZZ56KsiXKnF1J15ixdBiOge156s7W8UDEj/8E8kqQ8mc5R1bO8k3klFQX/oUr1Thirwlg==",
   "success": true,
-  "projectFilePath": "/Users/m-muravynets/RiderProjects/MMS.News.DAL/MMS.News.DAL.csproj",
+  "projectFilePath": "/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/MMS.News.DAL.csproj",
   "expectedPackageFiles": [
     "/Users/m-muravynets/.nuget/packages/humanizer.core/2.13.14/humanizer.core.2.13.14.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/microsoft.csharp/4.3.0/microsoft.csharp.4.3.0.nupkg.sha512",

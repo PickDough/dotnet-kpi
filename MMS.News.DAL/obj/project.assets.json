@@ -4966,11 +4966,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/m-muravynets/RiderProjects/MMS.News.DAL/MMS.News.DAL.csproj",
+      "projectUniqueName": "/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/MMS.News.DAL.csproj",
       "projectName": "MMS.News.DAL",
-      "projectPath": "/Users/m-muravynets/RiderProjects/MMS.News.DAL/MMS.News.DAL.csproj",
+      "projectPath": "/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/MMS.News.DAL.csproj",
       "packagesPath": "/Users/m-muravynets/.nuget/packages/",
-      "outputPath": "/Users/m-muravynets/RiderProjects/MMS.News.DAL/obj/",
+      "outputPath": "/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/m-muravynets/.nuget/NuGet/NuGet.Config"

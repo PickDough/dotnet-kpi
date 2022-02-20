@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4aef1d5f-a3f2-42d3-8718-ab52168f9022" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.vs/dotnet-kpi/xs/project-cache/MMS.LinkedList-Debug.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/dotnet-kpi/xs/project-cache/MMS.LinkedList.Test-Debug.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/dotnet-kpi/xs/project-cache/MMS.Playground-Debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/MMS.LinkedList.Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/MMS.LinkedList.Test.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/bin/Debug/net6.0/MMS.LinkedList.Test.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/bin/Debug/net6.0/MMS.LinkedList.Test.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/bin/Debug/net6.0/MMS.LinkedList.Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/bin/Debug/net6.0/MMS.LinkedList.Test.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/bin/Debug/net6.0/MMS.LinkedList.Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/bin/Debug/net6.0/MMS.LinkedList.Test.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/bin/Debug/net6.0/MMS.LinkedList.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/bin/Debug/net6.0/MMS.LinkedList.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/bin/Debug/net6.0/MMS.LinkedList.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/bin/Debug/net6.0/MMS.LinkedList.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/Debug/net6.0/MMS.LinkedList.Test.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/Debug/net6.0/MMS.LinkedList.Test.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/Debug/net6.0/MMS.LinkedList.Test.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/Debug/net6.0/MMS.LinkedList.Test.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/Debug/net6.0/MMS.LinkedList.Test.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/Debug/net6.0/MMS.LinkedList.Test.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/Debug/net6.0/MMS.LinkedList.Test.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/Debug/net6.0/MMS.LinkedList.Test.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/MMS.LinkedList.Test.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/MMS.LinkedList.Test.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/MMS.LinkedList.Test.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/MMS.LinkedList.Test.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/MMS.LinkedList.Test.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/MMS.LinkedList.Test.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList.Test/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/bin/Debug/net6.0/MMS.LinkedList.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/bin/Debug/net6.0/MMS.LinkedList.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/bin/Debug/net6.0/MMS.LinkedList.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/bin/Debug/net6.0/MMS.LinkedList.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/obj/MMS.LinkedList.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/obj/MMS.LinkedList.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/obj/MMS.LinkedList.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/obj/MMS.LinkedList.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/obj/MMS.LinkedList.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/obj/MMS.LinkedList.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.LinkedList/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.LinkedList/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/MMS.Playground.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/MMS.Playground.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/bin/Debug/net6.0/MMS.LinkedList.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/bin/Debug/net6.0/MMS.LinkedList.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/bin/Debug/net6.0/MMS.LinkedList.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/bin/Debug/net6.0/MMS.LinkedList.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/bin/Debug/net6.0/MMS.Playground.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/bin/Debug/net6.0/MMS.Playground.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/bin/Debug/net6.0/MMS.Playground.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/bin/Debug/net6.0/MMS.Playground.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/obj/Debug/net6.0/MMS.Playground.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/obj/Debug/net6.0/MMS.Playground.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/obj/Debug/net6.0/MMS.Playground.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/obj/Debug/net6.0/MMS.Playground.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/obj/Debug/net6.0/MMS.Playground.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/obj/Debug/net6.0/MMS.Playground.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/obj/Debug/net6.0/MMS.Playground.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/obj/Debug/net6.0/MMS.Playground.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/obj/MMS.Playground.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/obj/MMS.Playground.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/obj/MMS.Playground.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/obj/MMS.Playground.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/obj/MMS.Playground.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/obj/MMS.Playground.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.Playground/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.Playground/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9027f98576e7477887d9d1cd708cbfdf9e5200/_efc3c/ICollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MMS.LinkedList.Test/LinkedListTest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MMS.LinkedList/src/Abstract/IMLinkedList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MMS.LinkedList/src/Abstract/MLinkedList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MMS.LinkedList/src/Internal/MLinkedListEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MMS.Playground/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="25N80qT1SLqxyJTMOiZH1XFz2zx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4aef1d5f-a3f2-42d3-8718-ab52168f9022" name="Changes" comment="" />
+      <created>1645355963233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645355963233</updated>
+      <workItem from="1645355965732" duration="5000" />
+      <workItem from="1645356015562" duration="905000" />
+    </task>
+    <task id="LOCAL-00001" summary="DAL init">
+      <created>1645356236356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645356236356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="DAL init" />
+    <option name="LAST_COMMIT_MESSAGE" value="DAL init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MMS.Playground/Program.cs</url>
+          <line>43</line>
+          <properties documentPath="$PROJECT_DIR$/MMS.Playground/Program.cs" initialLine="40" containingFunctionPresentation="local function 'RemoveExample'">
+            <startOffsets>
+              <option value="999" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1017" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MMS.Playground/Program.cs</url>
+          <line>37</line>
+          <properties documentPath="$PROJECT_DIR$/MMS.Playground/Program.cs" initialLine="34" containingFunctionPresentation="local function 'RemoveExample'">
+            <startOffsets>
+              <option value="870" />
+            </startOffsets>
+            <endOffsets>
+              <option value="892" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MMS.Playground/Program.cs</url>
+          <line>33</line>
+          <properties documentPath="$PROJECT_DIR$/MMS.Playground/Program.cs" initialLine="30" containingFunctionPresentation="local function 'RemoveExample'">
+            <startOffsets>
+              <option value="803" />
+            </startOffsets>
+            <endOffsets>
+              <option value="821" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

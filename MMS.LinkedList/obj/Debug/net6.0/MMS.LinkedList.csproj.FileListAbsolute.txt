@@ -1,0 +1,12 @@
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/bin/Debug/net6.0/MMS.LinkedList.deps.json
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/bin/Debug/net6.0/MMS.LinkedList.dll
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/bin/Debug/net6.0/ref/MMS.LinkedList.dll
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/bin/Debug/net6.0/MMS.LinkedList.pdb
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.csproj.AssemblyReference.cache
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.AssemblyInfoInputs.cache
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.AssemblyInfo.cs
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.csproj.CoreCompileInputs.cache
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.dll
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/obj/Debug/net6.0/ref/MMS.LinkedList.dll
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.LinkedList/obj/Debug/net6.0/MMS.LinkedList.pdb

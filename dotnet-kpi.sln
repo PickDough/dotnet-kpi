@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMS.LinkedList", "MMS.LinkedList\MMS.LinkedList.csproj", "{71189286-CF2A-4F3C-B435-0036F0BFBDAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMS.Playground", "MMS.Playground\MMS.Playground.csproj", "{D3AC4AEC-621D-494D-8242-7E736F7F30EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71189286-CF2A-4F3C-B435-0036F0BFBDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71189286-CF2A-4F3C-B435-0036F0BFBDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71189286-CF2A-4F3C-B435-0036F0BFBDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71189286-CF2A-4F3C-B435-0036F0BFBDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3AC4AEC-621D-494D-8242-7E736F7F30EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3AC4AEC-621D-494D-8242-7E736F7F30EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3AC4AEC-621D-494D-8242-7E736F7F30EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3AC4AEC-621D-494D-8242-7E736F7F30EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

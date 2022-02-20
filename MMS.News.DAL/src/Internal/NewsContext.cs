@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using MMS.News.DAL.Entities;
+using MMS.News.DAL.Public.Entities;
 
 namespace MMS.News.DAL;
 
@@ -14,9 +14,7 @@ public class NewsContext: DbContext
     
     public NewsContext()
     {
-        var folder = Environment.SpecialFolder.LocalApplicationData;
-        var path = Environment.GetFolderPath(folder);
-        DbPath = System.IO.Path.Join(path, "news.db");
+        DbPath = "news.db";
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)

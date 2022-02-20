@@ -1,0 +1,14 @@
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/bin/Debug/net6.0/MMS.News.DAL.deps.json
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/bin/Debug/net6.0/MMS.News.DAL.runtimeconfig.json
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/bin/Debug/net6.0/MMS.News.DAL.dll
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/bin/Debug/net6.0/ref/MMS.News.DAL.dll
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/bin/Debug/net6.0/MMS.News.DAL.pdb
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.csproj.AssemblyReference.cache
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.AssemblyInfoInputs.cache
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.AssemblyInfo.cs
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.csproj.CoreCompileInputs.cache
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.dll
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/obj/Debug/net6.0/ref/MMS.News.DAL.dll
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.pdb
+/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.genruntimeconfig.cache

@@ -1,4 +1,4 @@
-namespace MMS.News.DAL.Entities;
+namespace MMS.News.DAL.Public.Entities;
 
 public class AuthorEntity: Entity<int>
 {

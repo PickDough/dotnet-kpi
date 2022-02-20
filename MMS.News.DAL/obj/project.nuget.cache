@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ru+V9KSlrZz3aGAvsZZ56KsiXKnF1J15ixdBiOge156s7W8UDEj/8E8kqQ8mc5R1bO8k3klFQX/oUr1Thirwlg==",
+  "dgSpecHash": "pDKla0hNMdsWoU50OlTl3jgHvThmdZKL2mT4V6KpxPGE2d1hesMbtHQCcdZdYEqpn12ihOQCeYbYYpZRK0qO5w==",
   "success": true,
   "projectFilePath": "/Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/MMS.News.DAL.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "/Users/m-muravynets/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.0-preview.1.22076.6/microsoft.entityframeworkcore.analyzers.7.0.0-preview.1.22076.6.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/microsoft.entityframeworkcore.design/7.0.0-preview.1.22076.6/microsoft.entityframeworkcore.design.7.0.0-preview.1.22076.6.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.0-preview.1.22076.6/microsoft.entityframeworkcore.relational.7.0.0-preview.1.22076.6.nupkg.sha512",
+    "/Users/m-muravynets/.nuget/packages/microsoft.entityframeworkcore.sqlite/7.0.0-preview.1.22076.6/microsoft.entityframeworkcore.sqlite.7.0.0-preview.1.22076.6.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/7.0.0-preview.1.22076.6/microsoft.entityframeworkcore.sqlite.core.7.0.0-preview.1.22076.6.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.0-preview.1.22076.6/microsoft.entityframeworkcore.tools.7.0.0-preview.1.22076.6.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/microsoft.entityframeworkcore.tools.dotnet/2.0.3/microsoft.entityframeworkcore.tools.dotnet.2.0.3.nupkg.sha512",
@@ -33,7 +34,10 @@
     "/Users/m-muravynets/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/netstandard.library/2.0.1/netstandard.library.2.0.1.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/newtonsoft.json/10.0.1/newtonsoft.json.10.0.1.nupkg.sha512",
+    "/Users/m-muravynets/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.7/sqlitepclraw.bundle_e_sqlite3.2.0.7.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/sqlitepclraw.core/2.0.7/sqlitepclraw.core.2.0.7.nupkg.sha512",
+    "/Users/m-muravynets/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.7/sqlitepclraw.lib.e_sqlite3.2.0.7.nupkg.sha512",
+    "/Users/m-muravynets/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.0.7/sqlitepclraw.provider.e_sqlite3.2.0.7.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/system.collections.immutable/7.0.0-preview.1.22076.8/system.collections.immutable.7.0.0-preview.1.22076.8.nupkg.sha512",
     "/Users/m-muravynets/.nuget/packages/system.collections.nongeneric/4.3.0/system.collections.nongeneric.4.3.0.nupkg.sha512",

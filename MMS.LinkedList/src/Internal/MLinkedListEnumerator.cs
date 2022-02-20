@@ -8,7 +8,7 @@ public class MLinkedListEnumerator<T> :
     ISerializable,
     IDeserializationCallback
 {
-    private MLinkedListNode<T> _current;
+    private MLinkedListNode<T>? _current;
     private readonly MLinkedList<T> _list;
     private readonly MLinkedListNode<T>? _head;
 
@@ -22,6 +22,9 @@ public class MLinkedListEnumerator<T> :
 
     public bool MoveNext()
     {
+        if (_current is null)
+            return false;
+        
         _current = _current.Next;
         
         return _current != _head;
@@ -31,7 +34,7 @@ public class MLinkedListEnumerator<T> :
     {
         if (_head is null)
         {
-            _current = _head;
+            _current = null;
             return;
         }
 

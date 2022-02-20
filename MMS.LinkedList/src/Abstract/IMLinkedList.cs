@@ -18,8 +18,8 @@ public interface IMLinkedList<T> :
     void AddLast(T item);
     void AddAfter(T after, T item);
     
-    T? GetFirst();
-    T? GetLast();
+    T? First { get; }
+    T? Last { get; }
 
     void RemoveFirst();
     void RemoveLast();

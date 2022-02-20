@@ -55,7 +55,7 @@ public class MLinkedList<T> : IMLinkedList<T>
             _head = first;
             _count++;
         }
-        
+
         ItemAdded?.Invoke(item);
     }
 
@@ -93,15 +93,9 @@ public class MLinkedList<T> : IMLinkedList<T>
         ItemAdded?.Invoke(item);
     }
 
-    public T? GetFirst()
-    {
-        return _head is null ? default : _head.Item;
-    }
+    public T? First => _head is null ? default : _head.Item;
 
-    public T? GetLast()
-    {
-        return _head is null ? default : _head.Prev.Item;
-    }
+    public T? Last => _head is null ? default : _head.Prev.Item;
 
     public void Clear()
     {
@@ -169,7 +163,7 @@ public class MLinkedList<T> : IMLinkedList<T>
     {
         if (_head is null)
             throw new InvalidOperationException();
-        
+
         RemoveNode(_head);
     }
 
@@ -184,7 +178,7 @@ public class MLinkedList<T> : IMLinkedList<T>
     public void RemoveAt(int index)
     {
         var node = FindByIndex(index);
-        
+
         RemoveNode(node);
     }
 
@@ -193,7 +187,7 @@ public class MLinkedList<T> : IMLinkedList<T>
         var (node, _) = FindByValue(after);
         if (node is null)
             throw new ArgumentException("After item not found", nameof(after));
-        
+
         RemoveNode(node.Next);
     }
 
@@ -254,18 +248,18 @@ public class MLinkedList<T> : IMLinkedList<T>
         var idx = 0;
         do
         {
-            idx++;
             if (current.Item != null && current.Item.Equals(item))
             {
                 return (current, idx);
             }
 
+            idx++;
             current = current.Next;
-        } while (current.Next != _head);
+        } while (current != _head);
 
         return (null, 0);
     }
-    
+
     private static void InsertAfterNode(T item, MLinkedListNode<T> node)
     {
         var newNode = new MLinkedListNode<T>(item)
@@ -302,7 +296,7 @@ public class MLinkedList<T> : IMLinkedList<T>
         if (_count == 0)
             Cleared?.Invoke();
     }
-    
+
     private MLinkedListNode<T> FindByIndex(int index)
     {
         if (index < 0 || index >= _count)
@@ -312,11 +306,11 @@ public class MLinkedList<T> : IMLinkedList<T>
         var idx = 0;
         do
         {
-            if (++idx == index)
+            if (idx++ == index)
                 return current!;
-            
+
             current = current!.Next;
-        } while (current.Next != _head);
+        } while (current != _head);
 
         return null!;
     }

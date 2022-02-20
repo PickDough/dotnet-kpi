@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMS.LinkedList", "MMS.Linke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMS.Playground", "MMS.Playground\MMS.Playground.csproj", "{D3AC4AEC-621D-494D-8242-7E736F7F30EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMS.LinkedList.Test", "MMS.LinkedList.Test\MMS.LinkedList.Test.csproj", "{EA22346E-8952-4399-974A-85DF56497416}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D3AC4AEC-621D-494D-8242-7E736F7F30EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3AC4AEC-621D-494D-8242-7E736F7F30EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3AC4AEC-621D-494D-8242-7E736F7F30EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA22346E-8952-4399-974A-85DF56497416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA22346E-8952-4399-974A-85DF56497416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA22346E-8952-4399-974A-85DF56497416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA22346E-8952-4399-974A-85DF56497416}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

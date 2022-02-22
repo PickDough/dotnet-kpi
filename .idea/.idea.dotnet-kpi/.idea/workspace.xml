@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="837f2840-b851-4356-9349-2e81859b5989" name="Changes" comment="DAL finished: added repositories, db connection, entities and UOF">
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/AuthorMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/CategoryMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/NewsMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/TagMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/Author.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/AuthorLogin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/AuthorSignUp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/News.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/Tag.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/IAuthorService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/ICategoryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/INewsService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/ITagService.cs" afterDir="false" />
+    <list default="true" id="837f2840-b851-4356-9349-2e81859b5989" name="Changes" comment="BLL added service interfaces, domain models, mappers">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnet-kpi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotnet-kpi/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dotnet-kpi.sln" beforeDir="false" afterPath="$PROJECT_DIR$/dotnet-kpi.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645357257869</updated>
-      <workItem from="1645357274079" duration="6640000" />
+      <workItem from="1645357274079" duration="7090000" />
     </task>
     <task id="LOCAL-00001" summary="solution set up">
       <created>1645357304576</created>
@@ -86,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645366462171</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BLL added service interfaces, domain models, mappers">
+      <created>1645369133848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645369133848</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +100,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="solution set up" />
     <MESSAGE value="DAL finished: added repositories, db connection, entities and UOF" />
-    <option name="LAST_COMMIT_MESSAGE" value="DAL finished: added repositories, db connection, entities and UOF" />
+    <MESSAGE value="BLL added service interfaces, domain models, mappers" />
+    <option name="LAST_COMMIT_MESSAGE" value="BLL added service interfaces, domain models, mappers" />
   </component>
 </project>

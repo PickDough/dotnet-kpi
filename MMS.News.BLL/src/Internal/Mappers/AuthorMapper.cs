@@ -5,8 +5,11 @@ namespace MMS.News.BLL.Internal.Mappers;
 
 internal static class AuthorMapper
 {
-    internal static Author ToDomain(this AuthorEntity entity)
+    internal static Author? ToDomain(this AuthorEntity? entity)
     {
+        if (entity is null)
+            return null;
+        
         return new Author()
         {
             ID = entity.ID,

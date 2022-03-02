@@ -5,8 +5,11 @@ namespace MMS.News.BLL.Internal.Mappers;
 
 internal static class CategoryMapper
 {
-    internal static Category ToDomain(this CategoryEntity entity)
+    internal static Category? ToDomain(this CategoryEntity? entity)
     {
+        if (entity is null)
+            return null;
+        
         return new Category()
         {
             ID = entity.ID,

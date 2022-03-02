@@ -4,6 +4,6 @@ namespace MMS.News.BLL.Public.Services;
 
 public interface ICategoryService
 {
-    Category Get(int id);
+    Category? Get(int id);
     IEnumerable<Category> GetAll();
 }

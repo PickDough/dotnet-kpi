@@ -5,8 +5,11 @@ namespace MMS.News.BLL.Internal.Mappers;
 
 internal static class TagMapper
 {
-    internal static Tag ToDomain(this TagEntity entity)
+    internal static Tag? ToDomain(this TagEntity? entity)
     {
+        if (entity is null)
+            return null;
+        
         return new Tag()
         {
             ID = entity.ID,

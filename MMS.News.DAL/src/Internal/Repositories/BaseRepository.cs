@@ -29,10 +29,10 @@ internal abstract class BaseRepository<TKey, TEntity> : IRepository<TKey, TEntit
 
     public TEntity? Get(TKey key)
     {
-        return Get(e => e.ID!.Equals(key));
+        return GetWhere(e => e.ID!.Equals(key));
     }
 
-    public TEntity? Get(Func<TEntity, bool> predicate)
+    public TEntity? GetWhere(Func<TEntity, bool> predicate)
     {
         return WithInclude()
             .FirstOrDefault(predicate);
@@ -41,6 +41,11 @@ internal abstract class BaseRepository<TKey, TEntity> : IRepository<TKey, TEntit
     public IEnumerable<TEntity> GetAll()
     {
         return WithInclude().ToList();
+    }
+
+    public IEnumerable<TEntity> GetAllWhere(Func<TEntity, bool> predicate)
+    {
+        return WithInclude().Where(predicate).ToList();
     }
 
     public IEnumerable<TEntity> GetAll(Func<TEntity, bool> predicate)

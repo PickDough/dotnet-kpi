@@ -4,9 +4,9 @@ namespace MMS.News.BLL.Public.Services;
 
 public interface IAuthorService
 {
-    Author Get(int id);
+    Author? Get(int id);
     IEnumerable<Author> GetAll();
 
-    void Create(AuthorSignUp authorSignUp);
+    void Signup(AuthorSignUp authorSignUp);
     void Login(AuthorLogin authorSignUp);
 }

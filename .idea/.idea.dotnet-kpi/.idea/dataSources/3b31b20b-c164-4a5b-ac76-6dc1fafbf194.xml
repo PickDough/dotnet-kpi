@@ -1350,127 +1350,136 @@
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="500" parent="491" name="FirstName">
+    <column id="500" parent="491" name="Email">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="501" parent="491" name="LastName">
+    <column id="501" parent="491" name="FirstName">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="502" parent="491" name="Email">
-      <DataType>TEXT|0s</DataType>
+    <column id="502" parent="491" name="HashedPassword">
+      <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="503" parent="491" name="HashedPassword">
+    <column id="503" parent="491" name="LastName">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <key id="504" parent="491" name="PK_Authors">
+    <index id="504" parent="491" name="authors_uniq_email">
+      <ColNames>Email</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="505" parent="491" name="authors_password_idx">
+      <ColNames>HashedPassword</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="506" parent="491" name="PK_Authors">
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="505" parent="492" name="ID">
+    <column id="507" parent="492" name="ID">
       <AutoIncrement>1</AutoIncrement>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="506" parent="492" name="Name">
+    <column id="508" parent="492" name="Name">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <key id="507" parent="492" name="PK_Categories">
+    <key id="509" parent="492" name="PK_Categories">
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="508" parent="493" name="ID">
+    <column id="510" parent="493" name="ID">
       <AutoIncrement>1</AutoIncrement>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="509" parent="493" name="Headline">
+    <column id="511" parent="493" name="Headline">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="510" parent="493" name="Content">
+    <column id="512" parent="493" name="Content">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="511" parent="493" name="DatePublished">
+    <column id="513" parent="493" name="DatePublished">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="512" parent="493" name="AuthorID">
+    <column id="514" parent="493" name="AuthorID">
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="513" parent="493" name="CategoryID">
+    <column id="515" parent="493" name="CategoryID">
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <foreign-key id="514" parent="493" name="FK_News_Authors_AuthorID">
+    <foreign-key id="516" parent="493" name="FK_News_Authors_AuthorID">
       <ColNames>AuthorID</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>ID</RefColNames>
       <RefKeyName>PK_Authors</RefKeyName>
       <RefTableName>Authors</RefTableName>
     </foreign-key>
-    <foreign-key id="515" parent="493" name="FK_News_Categories_CategoryID">
+    <foreign-key id="517" parent="493" name="FK_News_Categories_CategoryID">
       <ColNames>CategoryID</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>ID</RefColNames>
       <RefKeyName>PK_Categories</RefKeyName>
       <RefTableName>Categories</RefTableName>
     </foreign-key>
-    <index id="516" parent="493" name="IX_News_AuthorID">
+    <index id="518" parent="493" name="IX_News_AuthorID">
       <ColNames>AuthorID</ColNames>
       <ColumnCollations></ColumnCollations>
     </index>
-    <index id="517" parent="493" name="IX_News_CategoryID">
+    <index id="519" parent="493" name="IX_News_CategoryID">
       <ColNames>CategoryID</ColNames>
       <ColumnCollations></ColumnCollations>
     </index>
-    <key id="518" parent="493" name="PK_News">
+    <key id="520" parent="493" name="PK_News">
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="519" parent="494" name="NewsID">
+    <column id="521" parent="494" name="NewsID">
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="520" parent="494" name="TagsID">
+    <column id="522" parent="494" name="TagsID">
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <foreign-key id="521" parent="494" name="FK_NewsEntityTagEntity_News_NewsID">
+    <foreign-key id="523" parent="494" name="FK_NewsEntityTagEntity_News_NewsID">
       <ColNames>NewsID</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>ID</RefColNames>
       <RefKeyName>PK_News</RefKeyName>
       <RefTableName>News</RefTableName>
     </foreign-key>
-    <foreign-key id="522" parent="494" name="FK_NewsEntityTagEntity_Tags_TagsID">
+    <foreign-key id="524" parent="494" name="FK_NewsEntityTagEntity_Tags_TagsID">
       <ColNames>TagsID</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>ID</RefColNames>
       <RefKeyName>PK_Tags</RefKeyName>
       <RefTableName>Tags</RefTableName>
     </foreign-key>
-    <index id="523" parent="494" name="sqlite_autoindex_NewsEntityTagEntity_1">
+    <index id="525" parent="494" name="sqlite_autoindex_NewsEntityTagEntity_1">
       <ColNames>NewsID
 TagsID</ColNames>
       <ColumnCollations>
@@ -1478,76 +1487,76 @@ TagsID</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
     </index>
-    <index id="524" parent="494" name="IX_NewsEntityTagEntity_TagsID">
+    <index id="526" parent="494" name="IX_NewsEntityTagEntity_TagsID">
       <ColNames>TagsID</ColNames>
       <ColumnCollations></ColumnCollations>
     </index>
-    <key id="525" parent="494" name="PK_NewsEntityTagEntity">
+    <key id="527" parent="494" name="PK_NewsEntityTagEntity">
       <ColNames>NewsID
 TagsID</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>sqlite_autoindex_NewsEntityTagEntity_1</UnderlyingIndexName>
     </key>
-    <column id="526" parent="495" name="ID">
+    <column id="528" parent="495" name="ID">
       <AutoIncrement>1</AutoIncrement>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="527" parent="495" name="Name">
+    <column id="529" parent="495" name="Name">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <key id="528" parent="495" name="PK_Tags">
+    <key id="530" parent="495" name="PK_Tags">
       <ColNames>ID</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="529" parent="496" name="MigrationId">
+    <column id="531" parent="496" name="MigrationId">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="530" parent="496" name="ProductVersion">
+    <column id="532" parent="496" name="ProductVersion">
       <DataType>TEXT|0s</DataType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="531" parent="496" name="sqlite_autoindex___EFMigrationsHistory_1">
+    <index id="533" parent="496" name="sqlite_autoindex___EFMigrationsHistory_1">
       <ColNames>MigrationId</ColNames>
       <ColumnCollations></ColumnCollations>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
     </index>
-    <key id="532" parent="496" name="PK___EFMigrationsHistory">
+    <key id="534" parent="496" name="PK___EFMigrationsHistory">
       <ColNames>MigrationId</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>sqlite_autoindex___EFMigrationsHistory_1</UnderlyingIndexName>
     </key>
-    <column id="533" parent="497" name="type">
+    <column id="535" parent="497" name="type">
       <DataType>text|0s</DataType>
       <Position>1</Position>
     </column>
-    <column id="534" parent="497" name="name">
+    <column id="536" parent="497" name="name">
       <DataType>text|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="535" parent="497" name="tbl_name">
+    <column id="537" parent="497" name="tbl_name">
       <DataType>text|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="536" parent="497" name="rootpage">
+    <column id="538" parent="497" name="rootpage">
       <DataType>int|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="537" parent="497" name="sql">
+    <column id="539" parent="497" name="sql">
       <DataType>text|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="538" parent="498" name="name">
+    <column id="540" parent="498" name="name">
       <Position>1</Position>
     </column>
-    <column id="539" parent="498" name="seq">
+    <column id="541" parent="498" name="seq">
       <Position>2</Position>
     </column>
   </database-model>

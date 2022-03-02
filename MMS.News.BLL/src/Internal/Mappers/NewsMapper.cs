@@ -5,8 +5,11 @@ namespace MMS.News.BLL.Internal.Mappers;
 
 internal static class NewsMapper
 {
-    internal static Public.Domain.News ToDomain(this NewsEntity entity)
+    internal static Public.Domain.News? ToDomain(this NewsEntity? entity)
     {
+        if (entity is null)
+            return null;
+        
         return new Public.Domain.News()
         {
             ID = entity.ID,

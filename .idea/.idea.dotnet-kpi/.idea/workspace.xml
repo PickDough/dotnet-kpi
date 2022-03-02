@@ -5,7 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="837f2840-b851-4356-9349-2e81859b5989" name="Changes" comment="BLL added service interfaces, domain models, mappers">
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Services/AuthorService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Services/CategoryService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Services/NewsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Services/TagService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Exception/EmailAlreadyExistsException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Exception/InvalidCredentialsException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnet-kpi/.idea/dataSources/3b31b20b-c164-4a5b-ac76-6dc1fafbf194.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotnet-kpi/.idea/dataSources/3b31b20b-c164-4a5b-ac76-6dc1fafbf194.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dotnet-kpi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dotnet-kpi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.BLL/obj/Debug/net6.0/MMS.News.BLL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.BLL/obj/Debug/net6.0/MMS.News.BLL.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/AuthorMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/AuthorMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/CategoryMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/CategoryMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/NewsMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/NewsMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/TagMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Internal/Mappers/TagMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/Author.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Domain/Author.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/IAuthorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/IAuthorService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/ICategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/ICategoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/INewsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/INewsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/ITagService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.BLL/src/Public/Services/ITagService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/Migrations/NewsContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/Migrations/NewsContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/bin/Debug/net6.0/MMS.News.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/bin/Debug/net6.0/MMS.News.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/bin/Debug/net6.0/MMS.News.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/bin/Debug/net6.0/MMS.News.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/bin/Debug/net6.0/ref/MMS.News.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/bin/Debug/net6.0/ref/MMS.News.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/news.db" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/news.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/MMS.News.DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/ref/MMS.News.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/obj/Debug/net6.0/ref/MMS.News.DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/src/Internal/Repositories/BaseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Internal/Repositories/BaseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Entities/AuthorEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Entities/AuthorEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Repositories/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MMS.News.DAL/src/Public/Repositories/IRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +45,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/361c0e4b1bab5afdabb264b8e458265448b972de38c1f3316f328c601/IndexAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a7ad30f3ac0723382218092f88f1c9a2d416a1378115bd05c3fd1be8b7/String.Comparison.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MMS.News.DAL/src/Internal/Repositories/BaseRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/m-muravynets/RiderProjects/dotnet-kpi/MMS.News.DAL/src/Internal/Repositories/BaseRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MMS.News.DAL/src/Internal/UOF/UnitOfWork.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -29,24 +61,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1645357257869</updated>
       <workItem from="1645357274079" duration="7090000" />
+      <workItem from="1646221165527" duration="3889000" />
     </task>
     <task id="LOCAL-00001" summary="solution set up">
       <created>1645357304576</created>

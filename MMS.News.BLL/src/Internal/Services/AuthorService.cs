@@ -4,16 +4,17 @@ using MMS.News.BLL.Public.Exception;
 using MMS.News.BLL.Public.Services;
 using MMS.News.DAL.Public.Entities;
 using MMS.News.DAL.Public.Repositories;
+using MMS.News.DAL.Public.UOF;
 
 namespace MMS.News.BLL.Internal.Services;
 
 internal class AuthorService : IAuthorService
 {
-    private IAuthorsRepository _authorsRepository;
+    private readonly IAuthorsRepository _authorsRepository;
 
-    public AuthorService(IAuthorsRepository authorsRepository)
+    public AuthorService(IUnitOfWork unitOfWork)
     {
-        _authorsRepository = authorsRepository;
+        _authorsRepository = unitOfWork.AuthorsRepository;
     }
 
     public Author? Get(int id)

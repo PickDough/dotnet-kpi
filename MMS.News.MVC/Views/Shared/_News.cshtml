@@ -1,0 +1,11 @@
+@model NewsModel
+
+@if (Model is null)
+{
+    <h2>Couldn't load this news Article</h2>
+}
+else
+{
+    <div class="">Category: @Model.Category?.Name</div>
+    <h2>@Model.Headline</h2>
+}

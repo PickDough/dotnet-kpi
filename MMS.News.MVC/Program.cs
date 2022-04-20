@@ -1,7 +1,12 @@
+using MMS.News.BLL.DI;
+using MMS.News.DAL.DI;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddBllServices();
+builder.Services.AddDalServices(builder.Configuration);
 
 var app = builder.Build();
 

@@ -2,16 +2,17 @@ using MMS.News.BLL.Internal.Mappers;
 using MMS.News.BLL.Public.Domain;
 using MMS.News.BLL.Public.Services;
 using MMS.News.DAL.Public.Repositories;
+using MMS.News.DAL.Public.UOF;
 
 namespace MMS.News.BLL.Internal.Services;
 
 internal class CategoryService: ICategoryService
 {
-    private ICategoriesRepository _categoriesRepository;
+    private readonly ICategoriesRepository _categoriesRepository;
 
-    public CategoryService(ICategoriesRepository categoriesRepository)
+    public CategoryService(IUnitOfWork unitOfWork)
     {
-        _categoriesRepository = categoriesRepository;
+        _categoriesRepository = unitOfWork.CategoriesRepository;
     }
 
     public Category? Get(int id)

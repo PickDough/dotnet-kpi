@@ -2,16 +2,17 @@ using MMS.News.BLL.Internal.Mappers;
 using MMS.News.BLL.Public.Domain;
 using MMS.News.BLL.Public.Services;
 using MMS.News.DAL.Public.Repositories;
+using MMS.News.DAL.Public.UOF;
 
 namespace MMS.News.BLL.Internal.Services;
 
 public class TagService: ITagService
 {
-    private ITagsRepository _tagsRepository;
+    private readonly ITagsRepository _tagsRepository;
 
-    public TagService(ITagsRepository tagsRepository)
+    public TagService(IUnitOfWork unitOfWork)
     {
-        _tagsRepository = tagsRepository;
+        _tagsRepository = unitOfWork.TagsRepository;
     }
 
     public Tag? Get(int id)

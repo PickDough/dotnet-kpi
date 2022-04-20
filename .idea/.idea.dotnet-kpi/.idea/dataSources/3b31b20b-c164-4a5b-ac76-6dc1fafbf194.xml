@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="news">
-  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.37">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.38">
     <root id="1">
       <ServerVersion>3.34.0</ServerVersion>
     </root>
@@ -1372,12 +1372,10 @@
     </column>
     <index id="504" parent="491" name="authors_uniq_email">
       <ColNames>Email</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <index id="505" parent="491" name="authors_password_idx">
       <ColNames>HashedPassword</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="506" parent="491" name="PK_Authors">
       <ColNames>ID</ColNames>
@@ -1416,6 +1414,7 @@
     </column>
     <column id="513" parent="493" name="DatePublished">
       <DataType>TEXT|0s</DataType>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
@@ -1429,14 +1428,14 @@
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <foreign-key id="516" parent="493" name="FK_News_Authors_AuthorID">
+    <foreign-key id="516" parent="493">
       <ColNames>AuthorID</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>ID</RefColNames>
       <RefKeyName>PK_Authors</RefKeyName>
       <RefTableName>Authors</RefTableName>
     </foreign-key>
-    <foreign-key id="517" parent="493" name="FK_News_Categories_CategoryID">
+    <foreign-key id="517" parent="493">
       <ColNames>CategoryID</ColNames>
       <OnDelete>cascade</OnDelete>
       <RefColNames>ID</RefColNames>
@@ -1445,11 +1444,9 @@
     </foreign-key>
     <index id="518" parent="493" name="IX_News_AuthorID">
       <ColNames>AuthorID</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <index id="519" parent="493" name="IX_News_CategoryID">
       <ColNames>CategoryID</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="520" parent="493" name="PK_News">
       <ColNames>ID</ColNames>
@@ -1482,14 +1479,11 @@
     <index id="525" parent="494" name="sqlite_autoindex_NewsEntityTagEntity_1">
       <ColNames>NewsID
 TagsID</ColNames>
-      <ColumnCollations>
-</ColumnCollations>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
     </index>
     <index id="526" parent="494" name="IX_NewsEntityTagEntity_TagsID">
       <ColNames>TagsID</ColNames>
-      <ColumnCollations></ColumnCollations>
     </index>
     <key id="527" parent="494" name="PK_NewsEntityTagEntity">
       <ColNames>NewsID
@@ -1524,7 +1518,6 @@ TagsID</ColNames>
     </column>
     <index id="533" parent="496" name="sqlite_autoindex___EFMigrationsHistory_1">
       <ColNames>MigrationId</ColNames>
-      <ColumnCollations></ColumnCollations>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
     </index>

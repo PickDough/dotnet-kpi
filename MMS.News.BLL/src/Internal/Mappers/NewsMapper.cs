@@ -16,9 +16,9 @@ internal static class NewsMapper
             Headline = entity.Headline,
             Content = entity.Content,
             DatePublished = entity.DatePublished,
-            AuthorID = entity.AuthorID,
+            AuthorId = entity.AuthorID,
             Author = entity.Author?.ToDomain(),
-            CategoryID = entity.CategoryID,
+            CategoryId = entity.CategoryID,
             Category = entity.Category?.ToDomain(),
             Tags = entity.Tags?.Select(_ => _.ToDomain()).ToList(),
         };
@@ -32,8 +32,8 @@ internal static class NewsMapper
             Headline = domain.Headline,
             Content = domain.Content,
             DatePublished = domain.DatePublished,
-            AuthorID = domain.AuthorID,
-            CategoryID = domain.CategoryID,
+            AuthorID = domain.AuthorId,
+            CategoryID = domain.CategoryId,
             Tags = domain.Tags!.Select(_ => _.ToEntity()).ToList(),
         };
     }

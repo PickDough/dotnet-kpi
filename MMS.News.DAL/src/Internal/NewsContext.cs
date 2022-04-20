@@ -9,14 +9,19 @@ public class NewsContext: DbContext
     public DbSet<NewsEntity> News { get; set; }
     public DbSet<TagEntity> Tags { get; set; }
     public DbSet<CategoryEntity> Categories { get; set; }
-    
-    public string DbPath { get; }
-    
-    public NewsContext()
-    {
-        DbPath = "news.db";
-    }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder options)
-        => options.UseSqlite($"Data Source={DbPath}");
+    public NewsContext(DbContextOptions<NewsContext> options) : base(options)
+    {
+        
+    }
+    
+    // public string DbPath { get; }
+    //
+    // public NewsContext()
+    // {
+    //     DbPath = "news.db";
+    // }
+    //
+    // protected override void OnConfiguring(DbContextOptionsBuilder options)
+    //     => options.UseSqlite($"Data Source={DbPath}");
 }

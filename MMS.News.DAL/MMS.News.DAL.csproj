@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <Folder Include="src\Public" />
-      <Folder Include="src\UnitOfWork" />
     </ItemGroup>
 
     <ItemGroup>

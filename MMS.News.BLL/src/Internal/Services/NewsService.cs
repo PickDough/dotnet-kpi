@@ -2,16 +2,17 @@ using MMS.News.BLL.Internal.Mappers;
 using MMS.News.BLL.Public.Domain;
 using MMS.News.BLL.Public.Services;
 using MMS.News.DAL.Public.Repositories;
+using MMS.News.DAL.Public.UOF;
 
 namespace MMS.News.BLL.Internal.Services;
 
 internal class NewsService: INewsService
 {
-    private INewsRepository _newsRepository;
+    private readonly INewsRepository _newsRepository;
 
-    public NewsService(INewsRepository newsRepository)
+    public NewsService(IUnitOfWork unitOfWork)
     {
-        _newsRepository = newsRepository;
+        _newsRepository = unitOfWork.NewsRepository;
     }
 
     public Public.Domain.News? Get(int id)
